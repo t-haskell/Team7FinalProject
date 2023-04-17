@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import { UserDeclaration } from "./userdeclaration";
 
 function App(): JSX.Element {
     return (
