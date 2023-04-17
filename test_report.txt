@@ -6,7 +6,7 @@ Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (58 ms)
+  ✕ renders the course name somewhere (47 ms)
 
   ● renders the course name somewhere
 
@@ -29,6 +29,12 @@ FAIL src/App.test.tsx
           [36m<ul>[39m
             [36m<li>[39m
               [0mAnthony Andujar[0m
+            [36m</li>[39m
+            [36m<li>[39m
+              [0mTommy Haskell[0m
+            [36m</li>[39m
+            [36m<li>[39m
+              [0m???[0m
             [36m</li>[39m
             [36m<li>[39m
               [0mTabetha Chubb[0m
@@ -104,5 +110,5 @@ All files            |   11.11 |      100 |      20 |   11.11 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.477 s
+Time:        1.745 s
 Ran all test suites.
