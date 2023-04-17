@@ -17,8 +17,6 @@ function App(): JSX.Element {
                 <li>???</li>
                 <li>???</li>
             </ul>
-            <hr></hr>
-            <UserDeclaration></UserDeclaration>
         </div>
     );
 }
