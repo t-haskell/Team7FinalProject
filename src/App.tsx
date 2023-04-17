@@ -9,6 +9,14 @@ function App(): JSX.Element {
                 Team 7 Final Project --- SoleMate
             </header>
             <p>we ball</p>
+            <ul>
+                <li>Anthony Andujar</li>
+                <li>???</li>
+                <li>???</li>
+                <li>???</li>
+                <li>???</li>
+                <li>???</li>
+            </ul>
             <hr></hr>
             <UserDeclaration></UserDeclaration>
         </div>
