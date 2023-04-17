@@ -8,6 +8,15 @@ function App(): JSX.Element {
             <header className="App-header">
                 Team 7 Final Project --- SoleMate
             </header>
+            <p>we ball</p>
+            <ul>
+                <li>Anthony Andujar</li>
+                <li>???</li>
+                <li>???</li>
+                <li>???</li>
+                <li>???</li>
+                <li>???</li>
+            </ul>
             <hr></hr>
             Choose your User level.
             <hr></hr>
