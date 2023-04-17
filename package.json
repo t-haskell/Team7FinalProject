@@ -1,0 +1,29 @@
+{
+  "name": "team7finalproject",
+  "version": "1.0.0",
+  "description": "CISC275 final project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-haskell/Team7FinalProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t-haskell/Team7FinalProject/issues"
+  },
+  "homepage": "https://github.com/t-haskell/Team7FinalProject#readme",
+  "dependencies": {
+    "@testing-library/react": "^14.0.0",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@types/jest": "^29.5.0",
+    "@types/react-beautiful-dnd": "^13.1.4"
+  }
+}
