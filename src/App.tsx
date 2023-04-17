@@ -11,7 +11,7 @@ function App(): JSX.Element {
             <p>we ball</p>
             <ul>
                 <li>Anthony Andujar</li>
-                <li>???</li>
+                <li>Tabetha Chubb</li>
                 <li>???</li>
                 <li>???</li>
                 <li>???</li>
