@@ -12,7 +12,7 @@ function App(): JSX.Element {
             <ul>
                 <li>Anthony Andujar</li>
                 <li>Tommy Haskell</li>
-                <li>???</li>
+                <li>Jadyn Worthington</li>
                 <li>Tabetha Chubb</li>
                 <li>Greg Mensah</li>
                 <li>???</li>
