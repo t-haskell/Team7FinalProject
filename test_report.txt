@@ -6,7 +6,7 @@ Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (41 ms)
+  ✕ renders the course name somewhere (50 ms)
 
   ● renders the course name somewhere
 
@@ -23,6 +23,29 @@ FAIL src/App.test.tsx
           [36m>[39m
             [0mTeam 7 Final Project --- SoleMate[0m
           [36m</header>[39m
+          [36m<p>[39m
+            [0mwe ball[0m
+          [36m</p>[39m
+          [36m<ul>[39m
+            [36m<li>[39m
+              [0mAnthony Andujar[0m
+            [36m</li>[39m
+            [36m<li>[39m
+              [0m???[0m
+            [36m</li>[39m
+            [36m<li>[39m
+              [0m???[0m
+            [36m</li>[39m
+            [36m<li>[39m
+              [0m???[0m
+            [36m</li>[39m
+            [36m<li>[39m
+              [0m???[0m
+            [36m</li>[39m
+            [36m<li>[39m
+              [0m???[0m
+            [36m</li>[39m
+          [36m</ul>[39m
           [36m<hr />[39m
           [0mChoose your User level.[0m
           [36m<hr />[39m
@@ -71,14 +94,15 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
-----------|---------|----------|---------|---------|-------------------
-File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
-----------|---------|----------|---------|---------|-------------------
-All files |     100 |      100 |     100 |     100 |                   
- App.tsx  |     100 |      100 |     100 |     100 |                   
-----------|---------|----------|---------|---------|-------------------
+---------------------|---------|----------|---------|---------|-------------------
+File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------|---------|----------|---------|---------|-------------------
+All files            |   11.11 |      100 |      20 |   11.11 |                   
+ App.tsx             |     100 |      100 |     100 |     100 |                   
+ userdeclaration.tsx |       0 |      100 |       0 |       0 | 5-22              
+---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        1.65 s
+Time:        1.861 s
 Ran all test suites.
