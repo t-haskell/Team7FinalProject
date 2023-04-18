@@ -16,8 +16,6 @@ function App(): JSX.Element {
                 <li>Tabetha Chubb</li>
                 <li>Greg Mensah</li>
                 <li>Joey Blair</li>
-                <li>???</li>
-                <li>???</li>
             </ul>
             <hr></hr>
             Choose your User level.
