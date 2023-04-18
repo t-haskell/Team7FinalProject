@@ -6,6 +6,10 @@ function App(): JSX.Element {
     return (
         <div className="App">
             <header className="App-header">
+                <img
+                    src="/images/solematelogo.jpg"
+                    alt="SoleMate Main Logo"
+                ></img>
                 Team 7 Final Project --- SoleMate
             </header>
             <p>we ball</p>
