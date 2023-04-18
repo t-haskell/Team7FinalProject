@@ -6,7 +6,7 @@ Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (46 ms)
+  ✕ renders the course name somewhere (47 ms)
 
   ● renders the course name somewhere
 
@@ -21,6 +21,10 @@ FAIL src/App.test.tsx
           [36m<header[39m
             [33mclass[39m=[32m"App-header"[39m
           [36m>[39m
+            [36m<img[39m
+              [33malt[39m=[32m"SoleMate Main Logo"[39m
+              [33msrc[39m=[32m"/images/solematelogo.jpg"[39m
+            [36m/>[39m
             [0mTeam 7 Final Project --- SoleMate[0m
           [36m</header>[39m
           [36m<p>[39m
@@ -104,5 +108,5 @@ All files            |   11.11 |      100 |      20 |   11.11 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        1.78 s
+Time:        1.781 s
 Ran all test suites.
