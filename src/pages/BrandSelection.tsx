@@ -1,13 +1,11 @@
 import React from "react";
 import "./BrandSelection.css";
 
-export function BrandSelection(): JSX.Element {
+export default function BrandSelection(){
     return (
-        <div className="App">
+        <div className="Brandselection">
             <h1>Brand Selection</h1>
             <button id="customer">addidas</button>
         </div>
     );
 }
-
-export default BrandSelection;
