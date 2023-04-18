@@ -15,7 +15,7 @@ function App(): JSX.Element {
                 <li>Jadyn Worthington</li>
                 <li>Tabetha Chubb</li>
                 <li>Greg Mensah</li>
-                <li>???</li>
+                <li>Joey Blair</li>
                 <li>???</li>
                 <li>???</li>
             </ul>
