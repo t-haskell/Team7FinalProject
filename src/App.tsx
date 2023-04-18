@@ -1,39 +1,16 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import "./App.css";
+import { Navbar } from "react-bootstrap";
+import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
+import BrandSelection from "./pages/BrandSelection";
+import { HomePage } from "./pages/HomePage";
 
-function App(): JSX.Element {
+export default function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <img
-                    src="/images/solematelogo.jpg"
-                    alt="SoleMate Main Logo"
-                ></img>
-                Team 7 Final Project --- SoleMate
-            </header>
-            <p>we ball</p>
-            <ul>
-                <li>Anthony Andujar</li>
-                <li>Tommy Haskell</li>
-                <li>Jadyn Worthington</li>
-                <li>Tabetha Chubb</li>
-                <li>Greg Mensah</li>
-                <li>Joey Blair</li>
-            </ul>
-            <hr></hr>
-            Choose your User level.
-            <hr></hr>
-            <Button>User</Button>
-            ADD ON CLICK - MAIN PAGE
-            <p></p>
-            <Button>Admin</Button>
-            ADD ON CLICK - PASSWORD PAGE
-            <p></p>
-            <Button>Super</Button>
-            ADD ON CLICK - PASSWORD PAGE
-        </div>
+        <Routes>
+            <Route path="/" element={<HomePage/>}></Route> 
+            <Route path="/BrandSelection" element={<BrandSelection/>}></Route> 
+        </Routes>
     );
 }
-
-export default App;
