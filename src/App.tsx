@@ -9,8 +9,8 @@ import { HomePage } from "./pages/HomePage";
 export default function App() {
     return (
         <Routes>
-            <Route path="/" element={<HomePage/>}></Route> 
-            <Route path="/BrandSelection" element={<BrandSelection/>}></Route> 
+            <Route path="/" element={<HomePage />}></Route>
+            <Route path="/BrandSelection" element={<BrandSelection />}></Route>
         </Routes>
     );
 }

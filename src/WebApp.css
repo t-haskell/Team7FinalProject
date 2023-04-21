@@ -1,0 +1,132 @@
+@font-face {
+    font-family: dosis;
+    src: url(dosisFont.ttf);
+}
+/** NAV BAR **/
+body {
+    font-family: dosis;
+}
+
+nav {
+    background: linear-gradient(
+        rgba(100, 155, 173, 0.5),
+        rgba(100, 155, 173, 0.7)
+    );
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 5px rgba(100, 155, 173, 0.5), 0 1px 2px black;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 3vh;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/** CONTENT **/
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+.bg {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(
+            rgba(100, 155, 173, 0.5),
+            rgba(100, 155, 173, 0.7)
+        ),
+        url(images/brandSelectBackground.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 90%;
+    height: 70%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kolom {
+    margin: 10px;
+    width: 25%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 0.8;
+    transition: 0.2s ease;
+}
+
+.kolom:hover {
+    width: 30%;
+    height: 100%;
+}
+.kolom .a {
+    width: 100%;
+    height: 60%;
+    background: #85c1e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kolom .a img {
+    width: 80%;
+    height: 50%;
+}
+
+.kolom .b {
+    width: 100%;
+    height: 40%;
+    background: #1565c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(1, 1, 60);
+}
+.kolom .b a {
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+}
+
+/** FOOTER **/
+/**CAN BE USED AS THE SNEAKER PAGES **/
+
+.ADIDAS {
+    background: white;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.NIKE {
+    background: black;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.PUMA {
+    background: grey;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
